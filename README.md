@@ -20,3 +20,7 @@ Because 99.9% of the living creatures still want to use Ctrl-F to find within a 
 ## Installation
 - Run `mikiy.ahk`
 - If you want this script to always run, see [this guide](https://www.maketecheasier.com/schedule-autohotkey-startup-windows/)
+
+## Todo/Known issues
+- Automatically disable this setting in some consoles with built-in C-pnfb
+- C-S-f does not select region properly (randomly)
