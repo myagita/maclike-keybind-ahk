@@ -39,6 +39,12 @@ global x := "{vk58}"
 global y := "{vk59}"
 global z := "{vk5A}"
 
+;; IME (for Japanese) ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;^SC029::Send {vkF3sc029} ; Ctrl+tilde to Hankaku/Zenkaku
+; For the following to work, you need to set Microsoft-IME so that Muhenkan makes IME off and Henkan makes IME on
+F13 & Space::Send {vk1Dsc07B} ; CapsLock + Space to Muhenkan (IME off)
+RAlt & Space::Send {vk1Csc079} ; Right Alt + Space to Henkan (IME on)
+
 ;; C-{X}, C-S-{X} ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Cursor Motion
 F13 & a::
